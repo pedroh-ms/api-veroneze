@@ -1,0 +1,6 @@
+*~
+*.pyc
+dist/
+venv/
+src/api_veroneze.egg-info/
+src/instance/

@@ -1,0 +1,1622 @@
+{
+    "alunos": [
+        {
+            "id": 1,
+            "nome_completo": "Annalise Baglin",
+            "email": "abaglin0@elegantthemes.com",
+            "endereço": {
+                "rua": "Gateway",
+                "numero": "03",
+                "cidade": "Kwaluseni"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "teoria dos grafos",
+                "cálculo 2",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 2,
+            "nome_completo": "Juliann Witt",
+            "email": "jwitt1@hp.com",
+            "endereço": {
+                "rua": "Manitowish",
+                "numero": "0",
+                "cidade": "Xiacang"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo numérico",
+                "computação discreta",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 3,
+            "nome_completo": "Giana Poppleton",
+            "email": "gpoppleton2@who.int",
+            "endereço": {
+                "rua": "Daystar",
+                "numero": "63233",
+                "cidade": "Buayan"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "estrutura de dados",
+                "cálculo numérico",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 4,
+            "nome_completo": "Orland Syddall",
+            "email": "osyddall3@ustream.tv",
+            "endereço": {
+                "rua": "Rowland",
+                "numero": "7",
+                "cidade": "General Enrique Godoy"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "computação discreta",
+                "cálculo numérico",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 5,
+            "nome_completo": "Bobbi Valentino",
+            "email": "bvalentino4@amazonaws.com",
+            "endereço": {
+                "rua": "Rigney",
+                "numero": "05",
+                "cidade": "Charikar"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo numérico",
+                "banco de dados",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 6,
+            "nome_completo": "Odey Nairns",
+            "email": "onairns5@reddit.com",
+            "endereço": {
+                "rua": "Scott",
+                "numero": "1860",
+                "cidade": "Sawahrandu"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 2",
+                "teoria dos grafos",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 7,
+            "nome_completo": "Candace Iacapucci",
+            "email": "ciacapucci6@devhub.com",
+            "endereço": {
+                "rua": "Rusk",
+                "numero": "1",
+                "cidade": "Jingdu"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 2",
+                "ingles instrumental",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 8,
+            "nome_completo": "Claretta Shapera",
+            "email": "cshapera7@va.gov",
+            "endereço": {
+                "rua": "Hazelcrest",
+                "numero": "2079",
+                "cidade": "Cabaiguán"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "teoria dos grafos",
+                "cálculo 2",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 9,
+            "nome_completo": "Yardley Giggie",
+            "email": "ygiggie8@wikispaces.com",
+            "endereço": {
+                "rua": "Sutteridge",
+                "numero": "23",
+                "cidade": "Leon Postigo"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 2",
+                "álgebra",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 10,
+            "nome_completo": "Ahmed Carlo",
+            "email": "acarlo9@uol.com.br",
+            "endereço": {
+                "rua": "Novick",
+                "numero": "09",
+                "cidade": "Anfu"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "computação discreta",
+                "teoria dos grafos",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 11,
+            "nome_completo": "Zahara Scardafield",
+            "email": "zscardafielda@blogger.com",
+            "endereço": {
+                "rua": "Kinsman",
+                "numero": "9",
+                "cidade": "Debre Sīna"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "álgebra",
+                "cálculo numérico",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 12,
+            "nome_completo": "Fan Leipold",
+            "email": "fleipoldb@dailymail.co.uk",
+            "endereço": {
+                "rua": "Sauthoff",
+                "numero": "1",
+                "cidade": "Las Tejerías"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "estrutura de dados",
+                "teoria dos grafos",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 13,
+            "nome_completo": "Florry de Keep",
+            "email": "fdec@icio.us",
+            "endereço": {
+                "rua": "Blackbird",
+                "numero": "39",
+                "cidade": "Sapareva Banya"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "computação discreta",
+                "cálculo 1",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 14,
+            "nome_completo": "Granny Dearing",
+            "email": "gdearingd@biblegateway.com",
+            "endereço": {
+                "rua": "Anthes",
+                "numero": "504",
+                "cidade": "Genève"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 3",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 15,
+            "nome_completo": "Liane Janak",
+            "email": "ljanake@mysql.com",
+            "endereço": {
+                "rua": "Loftsgordon",
+                "numero": "27",
+                "cidade": "Caidian"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 2",
+                "cálculo numérico",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 16,
+            "nome_completo": "Jewel Bosson",
+            "email": "jbossonf@myspace.com",
+            "endereço": {
+                "rua": "Oakridge",
+                "numero": "79",
+                "cidade": "Bandeirantes"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "ingles instrumental",
+                "teoria dos grafos",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 17,
+            "nome_completo": "Beckie Hamill",
+            "email": "bhamillg@telegraph.co.uk",
+            "endereço": {
+                "rua": "Dakota",
+                "numero": "85593",
+                "cidade": "Adiwerna"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "álgebra",
+                "estrutura de dados",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 18,
+            "nome_completo": "Mady De Cleyne",
+            "email": "mdeh@home.pl",
+            "endereço": {
+                "rua": "Arrowood",
+                "numero": "3",
+                "cidade": "Biscucuy"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 1",
+                "teoria dos grafos",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 19,
+            "nome_completo": "Bartholomeus Jeenes",
+            "email": "bjeenesi@bluehost.com",
+            "endereço": {
+                "rua": "Butterfield",
+                "numero": "4326",
+                "cidade": "Bojong"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "computação discreta",
+                "banco de dados",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 20,
+            "nome_completo": "Rafaelita Medland",
+            "email": "rmedlandj@omniture.com",
+            "endereço": {
+                "rua": "Granby",
+                "numero": "6048",
+                "cidade": "Bryukhovetskaya"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 2",
+                "cálculo 3",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 21,
+            "nome_completo": "Paulita Paladino",
+            "email": "ppaladinok@thetimes.co.uk",
+            "endereço": {
+                "rua": "Granby",
+                "numero": "385",
+                "cidade": "Kambar"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "ingles instrumental",
+                "álgebra",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 22,
+            "nome_completo": "Sheena Randleson",
+            "email": "srandlesonl@forbes.com",
+            "endereço": {
+                "rua": "Crescent Oaks",
+                "numero": "910",
+                "cidade": "Suwalan"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "computação discreta",
+                "cálculo 3",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 23,
+            "nome_completo": "Kacie Bingall",
+            "email": "kbingallm@sfgate.com",
+            "endereço": {
+                "rua": "Dunning",
+                "numero": "789",
+                "cidade": "Rio Verde de Mato Grosso"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 1",
+                "cálculo 3",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 24,
+            "nome_completo": "Clayborn Lanchester",
+            "email": "clanchestern@apple.com",
+            "endereço": {
+                "rua": "Milwaukee",
+                "numero": "4",
+                "cidade": "Arapongas"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 3",
+                "ingles instrumental",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 25,
+            "nome_completo": "Engracia Berndsen",
+            "email": "eberndseno@telegraph.co.uk",
+            "endereço": {
+                "rua": "Dapin",
+                "numero": "29050",
+                "cidade": "Pasirlimus"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "álgebra",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 26,
+            "nome_completo": "Garfield Todarini",
+            "email": "gtodarinip@privacy.gov.au",
+            "endereço": {
+                "rua": "Twin Pines",
+                "numero": "2121",
+                "cidade": "Baohe"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "álgebra",
+                "cálculo 2",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 27,
+            "nome_completo": "Aube O'Brogane",
+            "email": "aobroganeq@myspace.com",
+            "endereço": {
+                "rua": "Debra",
+                "numero": "60461",
+                "cidade": "Media Luna"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "álgebra",
+                "cálculo numérico",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 28,
+            "nome_completo": "Blondie Paal",
+            "email": "bpaalr@mysql.com",
+            "endereço": {
+                "rua": "Blaine",
+                "numero": "707",
+                "cidade": "Pontes"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "teoria dos grafos",
+                "banco de dados",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 29,
+            "nome_completo": "Ware Braksper",
+            "email": "wbrakspers@who.int",
+            "endereço": {
+                "rua": "Crownhardt",
+                "numero": "548",
+                "cidade": "Gniezno"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo numérico",
+                "ingles instrumental",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 30,
+            "nome_completo": "Ellerey Kerkham",
+            "email": "ekerkhamt@dmoz.org",
+            "endereço": {
+                "rua": "Erie",
+                "numero": "7701",
+                "cidade": "Afonsoeiro"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 3",
+                "cálculo 1",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 31,
+            "nome_completo": "Freedman Britzius",
+            "email": "fbritziusu@gnu.org",
+            "endereço": {
+                "rua": "Eastlawn",
+                "numero": "851",
+                "cidade": "Kaburon"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 1",
+                "ingles instrumental",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 32,
+            "nome_completo": "Dame Larchier",
+            "email": "dlarchierv@reuters.com",
+            "endereço": {
+                "rua": "Warrior",
+                "numero": "6",
+                "cidade": "Xiakouyi"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "teoria dos grafos",
+                "computação discreta",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 33,
+            "nome_completo": "Merilee Skally",
+            "email": "mskallyw@360.cn",
+            "endereço": {
+                "rua": "Cherokee",
+                "numero": "7",
+                "cidade": "Karpogory"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 1",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 34,
+            "nome_completo": "Garvy Duplan",
+            "email": "gduplanx@ucoz.ru",
+            "endereço": {
+                "rua": "Brentwood",
+                "numero": "837",
+                "cidade": "Zhonggang"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "ingles instrumental",
+                "computação discreta",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 35,
+            "nome_completo": "Lev Turbern",
+            "email": "lturberny@nytimes.com",
+            "endereço": {
+                "rua": "Marcy",
+                "numero": "19633",
+                "cidade": "Ayotupas"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 2",
+                "cálculo numérico",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 36,
+            "nome_completo": "Andreana Moysey",
+            "email": "amoyseyz@wikimedia.org",
+            "endereço": {
+                "rua": "Talisman",
+                "numero": "4",
+                "cidade": "Santa Cruz de la Sierra"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo 1",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 37,
+            "nome_completo": "Killian Vardon",
+            "email": "kvardon10@google.es",
+            "endereço": {
+                "rua": "Hermina",
+                "numero": "661",
+                "cidade": "Vrané nad Vltavou"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "teoria dos grafos",
+                "cálculo 1",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 38,
+            "nome_completo": "Conrado Spratley",
+            "email": "cspratley11@japanpost.jp",
+            "endereço": {
+                "rua": "Sunfield",
+                "numero": "72886",
+                "cidade": "Ranchuelo"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 2",
+                "cálculo numérico",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 39,
+            "nome_completo": "Brigid Pickersgill",
+            "email": "bpickersgill12@ed.gov",
+            "endereço": {
+                "rua": "Grayhawk",
+                "numero": "480",
+                "cidade": "Thị Trấn Mường Khương"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "teoria dos grafos",
+                "computação discreta",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 40,
+            "nome_completo": "Eustace Rushforth",
+            "email": "erushforth13@biblegateway.com",
+            "endereço": {
+                "rua": "Parkside",
+                "numero": "51198",
+                "cidade": "Liudu"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo numérico",
+                "cálculo 1",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 41,
+            "nome_completo": "De witt Shambrook",
+            "email": "dwitt14@jalbum.net",
+            "endereço": {
+                "rua": "Green Ridge",
+                "numero": "995",
+                "cidade": "Baomin"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 42,
+            "nome_completo": "Rea Gagin",
+            "email": "rgagin15@omniture.com",
+            "endereço": {
+                "rua": "Lillian",
+                "numero": "6957",
+                "cidade": "Fukuoka-shi"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 2",
+                "teoria dos grafos",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 43,
+            "nome_completo": "Hendrik Geharke",
+            "email": "hgeharke16@dmoz.org",
+            "endereço": {
+                "rua": "Merry",
+                "numero": "3615",
+                "cidade": "El Bolsón"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo 2",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 44,
+            "nome_completo": "Glennie Bristo",
+            "email": "gbristo17@wp.com",
+            "endereço": {
+                "rua": "Helena",
+                "numero": "599",
+                "cidade": "Seria"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "banco de dados",
+                "álgebra",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 45,
+            "nome_completo": "Correna Triswell",
+            "email": "ctriswell18@jimdo.com",
+            "endereço": {
+                "rua": "Maple",
+                "numero": "0583",
+                "cidade": "Pasanggrahan"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo numérico",
+                "álgebra",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 46,
+            "nome_completo": "Kalila Caton",
+            "email": "kcaton19@bandcamp.com",
+            "endereço": {
+                "rua": "Di Loreto",
+                "numero": "776",
+                "cidade": "Catayauan"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "álgebra",
+                "banco de dados",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 47,
+            "nome_completo": "Kalil Hebner",
+            "email": "khebner1a@ucsd.edu",
+            "endereço": {
+                "rua": "Center",
+                "numero": "7",
+                "cidade": "Cikaso"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo 1",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 48,
+            "nome_completo": "Isaak McColley",
+            "email": "imccolley1b@360.cn",
+            "endereço": {
+                "rua": "Becker",
+                "numero": "376",
+                "cidade": "Fifi"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "banco de dados",
+                "ingles instrumental",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 49,
+            "nome_completo": "Preston Tofanini",
+            "email": "ptofanini1c@angelfire.com",
+            "endereço": {
+                "rua": "Namekagon",
+                "numero": "6039",
+                "cidade": "Colosó"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "computação discreta",
+                "cálculo 2",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 50,
+            "nome_completo": "Haily Metzing",
+            "email": "hmetzing1d@marriott.com",
+            "endereço": {
+                "rua": "Straubel",
+                "numero": "96",
+                "cidade": "Sidu"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "ingles instrumental",
+                "computação discreta",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 51,
+            "nome_completo": "Anatola Wickson",
+            "email": "awickson1e@mac.com",
+            "endereço": {
+                "rua": "Dennis",
+                "numero": "39",
+                "cidade": "Kalapadua"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo numérico",
+                "cálculo 1",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 52,
+            "nome_completo": "Margareta Antill",
+            "email": "mantill1f@bloomberg.com",
+            "endereço": {
+                "rua": "Harper",
+                "numero": "60274",
+                "cidade": "Naagas"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 3",
+                "cálculo 1",
+                "estrutura de dados"
+            ]
+        },
+        {
+            "id": 53,
+            "nome_completo": "Myra Adriaan",
+            "email": "madriaan1g@sakura.ne.jp",
+            "endereço": {
+                "rua": "Straubel",
+                "numero": "816",
+                "cidade": "Shuixi"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 2",
+                "banco de dados",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 54,
+            "nome_completo": "Tiffi Endrizzi",
+            "email": "tendrizzi1h@bbc.co.uk",
+            "endereço": {
+                "rua": "Mayfield",
+                "numero": "11471",
+                "cidade": "Bella Vista"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 2",
+                "banco de dados",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 55,
+            "nome_completo": "Melba Lett",
+            "email": "mlett1i@wiley.com",
+            "endereço": {
+                "rua": "Dryden",
+                "numero": "60193",
+                "cidade": "San Francisco"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "teoria dos grafos",
+                "cálculo 1",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 56,
+            "nome_completo": "Rubin Dongles",
+            "email": "rdongles1j@imdb.com",
+            "endereço": {
+                "rua": "Heffernan",
+                "numero": "2454",
+                "cidade": "Pingyi"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo numérico",
+                "cálculo 1",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 57,
+            "nome_completo": "Dalston Andrys",
+            "email": "dandrys1k@yelp.com",
+            "endereço": {
+                "rua": "Pond",
+                "numero": "02",
+                "cidade": "Aheloy"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "álgebra",
+                "teoria dos grafos",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 58,
+            "nome_completo": "Albertina Moisey",
+            "email": "amoisey1l@salon.com",
+            "endereço": {
+                "rua": "Maywood",
+                "numero": "37963",
+                "cidade": "Mundybash"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo numérico",
+                "estrutura de dados",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 59,
+            "nome_completo": "Shana Rantoul",
+            "email": "srantoul1m@alexa.com",
+            "endereço": {
+                "rua": "Paget",
+                "numero": "5876",
+                "cidade": "Andradas"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 1",
+                "álgebra",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 60,
+            "nome_completo": "Martha Le Batteur",
+            "email": "mle1n@multiply.com",
+            "endereço": {
+                "rua": "Muir",
+                "numero": "15443",
+                "cidade": "Puerto Natales"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "estrutura de dados",
+                "álgebra",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 61,
+            "nome_completo": "Kissie Thorogood",
+            "email": "kthorogood1o@flavors.me",
+            "endereço": {
+                "rua": "Cherokee",
+                "numero": "5",
+                "cidade": "Fresnes"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 3",
+                "álgebra",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 62,
+            "nome_completo": "Larine Gowdy",
+            "email": "lgowdy1p@tumblr.com",
+            "endereço": {
+                "rua": "Harper",
+                "numero": "8",
+                "cidade": "Ózd"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo numérico",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 63,
+            "nome_completo": "Tanner Barracks",
+            "email": "tbarracks1q@lycos.com",
+            "endereço": {
+                "rua": "Utah",
+                "numero": "92777",
+                "cidade": "Wojcieszków"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "ingles instrumental",
+                "álgebra",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 64,
+            "nome_completo": "Kippy Lisimore",
+            "email": "klisimore1r@cbslocal.com",
+            "endereço": {
+                "rua": "Algoma",
+                "numero": "2",
+                "cidade": "Majengo"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "álgebra",
+                "estrutura de dados",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 65,
+            "nome_completo": "Rollie ducarme",
+            "email": "rducarme1s@mashable.com",
+            "endereço": {
+                "rua": "Village",
+                "numero": "1",
+                "cidade": "Puerto de Nutrias"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "banco de dados",
+                "ingles instrumental",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 66,
+            "nome_completo": "Tomasine Donwell",
+            "email": "tdonwell1t@imageshack.us",
+            "endereço": {
+                "rua": "Lakeland",
+                "numero": "1757",
+                "cidade": "Sogod"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "álgebra",
+                "teoria dos grafos",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 67,
+            "nome_completo": "Lexine Salvin",
+            "email": "lsalvin1u@yellowbook.com",
+            "endereço": {
+                "rua": "Larry",
+                "numero": "4414",
+                "cidade": "Chengguan"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 1",
+                "álgebra",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 68,
+            "nome_completo": "Sheena Lambrecht",
+            "email": "slambrecht1v@icio.us",
+            "endereço": {
+                "rua": "Logan",
+                "numero": "7",
+                "cidade": "Kalde Panga"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 1",
+                "cálculo numérico",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 69,
+            "nome_completo": "Eleanora Woolvett",
+            "email": "ewoolvett1w@oracle.com",
+            "endereço": {
+                "rua": "Welch",
+                "numero": "4",
+                "cidade": "Oullins"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "ingles instrumental",
+                "teoria dos grafos",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 70,
+            "nome_completo": "Jolynn Kineton",
+            "email": "jkineton1x@yahoo.com",
+            "endereço": {
+                "rua": "Morrow",
+                "numero": "27263",
+                "cidade": "Nong Ruea"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "estrutura de dados",
+                "computação discreta",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 71,
+            "nome_completo": "Yvon Colborn",
+            "email": "ycolborn1y@ask.com",
+            "endereço": {
+                "rua": "Hintze",
+                "numero": "70",
+                "cidade": "New York City"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 3",
+                "cálculo 2",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 72,
+            "nome_completo": "Karola Nares",
+            "email": "knares1z@icio.us",
+            "endereço": {
+                "rua": "Hintze",
+                "numero": "31672",
+                "cidade": "Na Wa"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "álgebra",
+                "ingles instrumental",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 73,
+            "nome_completo": "Gael Pietroni",
+            "email": "gpietroni20@nih.gov",
+            "endereço": {
+                "rua": "Petterle",
+                "numero": "91861",
+                "cidade": "Al Muţayrifī"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 1",
+                "estrutura de dados",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 74,
+            "nome_completo": "Reed Lockie",
+            "email": "rlockie21@imgur.com",
+            "endereço": {
+                "rua": "Killdeer",
+                "numero": "8081",
+                "cidade": "Kyjov"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 2",
+                "álgebra",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 75,
+            "nome_completo": "Darlleen Stawell",
+            "email": "dstawell22@mozilla.com",
+            "endereço": {
+                "rua": "Reinke",
+                "numero": "712",
+                "cidade": "Aravissós"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "ingles instrumental",
+                "cálculo numérico",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 76,
+            "nome_completo": "Ritchie Whittles",
+            "email": "rwhittles23@illinois.edu",
+            "endereço": {
+                "rua": "Ilene",
+                "numero": "51",
+                "cidade": "Kangar"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 1",
+                "banco de dados",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 77,
+            "nome_completo": "Susan Hebron",
+            "email": "shebron24@homestead.com",
+            "endereço": {
+                "rua": "Oakridge",
+                "numero": "52006",
+                "cidade": "Gongping"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 3",
+                "cálculo numérico",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 78,
+            "nome_completo": "Clevie Fishly",
+            "email": "cfishly25@webeden.co.uk",
+            "endereço": {
+                "rua": "Bunker Hill",
+                "numero": "751",
+                "cidade": "Smołdzino"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "estrutura de dados",
+                "teoria dos grafos",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 79,
+            "nome_completo": "Duke Buscher",
+            "email": "dbuscher26@blinklist.com",
+            "endereço": {
+                "rua": "Darwin",
+                "numero": "7",
+                "cidade": "Aiximan"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo numérico",
+                "cálculo 2",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 80,
+            "nome_completo": "Neville Inmett",
+            "email": "ninmett27@cnbc.com",
+            "endereço": {
+                "rua": "Lunder",
+                "numero": "8280",
+                "cidade": "Río Ceballos"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "estrutura de dados",
+                "ingles instrumental",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 81,
+            "nome_completo": "Belinda Danilchik",
+            "email": "bdanilchik28@about.com",
+            "endereço": {
+                "rua": "Moland",
+                "numero": "52897",
+                "cidade": "Tuojiang"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 3",
+                "computação discreta",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 82,
+            "nome_completo": "Gifford Normington",
+            "email": "gnormington29@seattletimes.com",
+            "endereço": {
+                "rua": "Vahlen",
+                "numero": "7450",
+                "cidade": "Mahaplag"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "álgebra",
+                "cálculo 2",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 83,
+            "nome_completo": "Wald Calderhead",
+            "email": "wcalderhead2a@g.co",
+            "endereço": {
+                "rua": "Upham",
+                "numero": "63",
+                "cidade": "Bolesławiec"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "computação discreta",
+                "cálculo 3",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 84,
+            "nome_completo": "Mirabelle Dechelette",
+            "email": "mdechelette2b@mac.com",
+            "endereço": {
+                "rua": "4th",
+                "numero": "472",
+                "cidade": "Saint-Dizier"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "computação discreta",
+                "estrutura de dados",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 85,
+            "nome_completo": "Andi Sebrook",
+            "email": "asebrook2c@unc.edu",
+            "endereço": {
+                "rua": "South",
+                "numero": "23377",
+                "cidade": "Baucau"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "estrutura de dados",
+                "computação discreta",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 86,
+            "nome_completo": "Randene De Domenici",
+            "email": "rde2d@sitemeter.com",
+            "endereço": {
+                "rua": "Linden",
+                "numero": "1451",
+                "cidade": "Reinaldes"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "álgebra",
+                "cálculo numérico",
+                "cálculo 2"
+            ]
+        },
+        {
+            "id": 87,
+            "nome_completo": "Jaimie Bergen",
+            "email": "jbergen2e@unblog.fr",
+            "endereço": {
+                "rua": "Mosinee",
+                "numero": "081",
+                "cidade": "Hartola"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "estrutura de dados",
+                "cálculo numérico",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 88,
+            "nome_completo": "Latrena Cowin",
+            "email": "lcowin2f@usgs.gov",
+            "endereço": {
+                "rua": "Logan",
+                "numero": "0",
+                "cidade": "Eldoret"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "teoria dos grafos",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 89,
+            "nome_completo": "Arnuad Tithecott",
+            "email": "atithecott2g@cyberchimps.com",
+            "endereço": {
+                "rua": "Hovde",
+                "numero": "391",
+                "cidade": "Liuhe"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "ingles instrumental",
+                "cálculo 2",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 90,
+            "nome_completo": "Mikkel MacChaell",
+            "email": "mmacchaell2h@virginia.edu",
+            "endereço": {
+                "rua": "Algoma",
+                "numero": "4",
+                "cidade": "Gaoqiao"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "estrutura de dados",
+                "álgebra",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 91,
+            "nome_completo": "Carrie Rosenbusch",
+            "email": "crosenbusch2i@parallels.com",
+            "endereço": {
+                "rua": "Hoffman",
+                "numero": "230",
+                "cidade": "Torre"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "cálculo 2",
+                "cálculo 1",
+                "banco de dados"
+            ]
+        },
+        {
+            "id": 92,
+            "nome_completo": "Jayson Varndall",
+            "email": "jvarndall2j@wix.com",
+            "endereço": {
+                "rua": "Buell",
+                "numero": "81142",
+                "cidade": "Baiguo"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "teoria dos grafos",
+                "banco de dados",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 93,
+            "nome_completo": "Sullivan Badrock",
+            "email": "sbadrock2k@webs.com",
+            "endereço": {
+                "rua": "Esker",
+                "numero": "666",
+                "cidade": "Tonjongsari"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "cálculo 1",
+                "cálculo numérico",
+                "computação discreta"
+            ]
+        },
+        {
+            "id": 94,
+            "nome_completo": "Elvera Fuentes",
+            "email": "efuentes2l@shinystat.com",
+            "endereço": {
+                "rua": "Buena Vista",
+                "numero": "7",
+                "cidade": "Nowe Warpno"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "teoria dos grafos",
+                "banco de dados",
+                "álgebra"
+            ]
+        },
+        {
+            "id": 95,
+            "nome_completo": "Lorry Hamlett",
+            "email": "lhamlett2m@yahoo.com",
+            "endereço": {
+                "rua": "Helena",
+                "numero": "86",
+                "cidade": "Szczecin"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "banco de dados",
+                "cálculo 2",
+                "cálculo 3"
+            ]
+        },
+        {
+            "id": 96,
+            "nome_completo": "Karola Cammoile",
+            "email": "kcammoile2n@yellowbook.com",
+            "endereço": {
+                "rua": "Cambridge",
+                "numero": "48",
+                "cidade": "Silver Spring"
+            },
+            "curso": 2,
+            "disciplinas": [
+                "estrutura de dados",
+                "cálculo 3",
+                "teoria dos grafos"
+            ]
+        },
+        {
+            "id": 97,
+            "nome_completo": "Robers Peacop",
+            "email": "rpeacop2o@shareasale.com",
+            "endereço": {
+                "rua": "Victoria",
+                "numero": "47539",
+                "cidade": "Cortes"
+            },
+            "curso": 4,
+            "disciplinas": [
+                "cálculo 3",
+                "álgebra",
+                "cálculo 1"
+            ]
+        },
+        {
+            "id": 98,
+            "nome_completo": "Andie McGavin",
+            "email": "amcgavin2p@jalbum.net",
+            "endereço": {
+                "rua": "Crescent Oaks",
+                "numero": "03347",
+                "cidade": "Chiquinquirá"
+            },
+            "curso": 1,
+            "disciplinas": [
+                "ingles instrumental",
+                "cálculo 2",
+                "cálculo numérico"
+            ]
+        },
+        {
+            "id": 99,
+            "nome_completo": "Maria Dudin",
+            "email": "mdudin2q@sciencedaily.com",
+            "endereço": {
+                "rua": "Ronald Regan",
+                "numero": "0558",
+                "cidade": "Shimonoseki"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "cálculo 3",
+                "estrutura de dados",
+                "ingles instrumental"
+            ]
+        },
+        {
+            "id": 100,
+            "nome_completo": "Ambros Moyser",
+            "email": "amoyser2r@w3.org",
+            "endereço": {
+                "rua": "Superior",
+                "numero": "702",
+                "cidade": "Oebai"
+            },
+            "curso": 3,
+            "disciplinas": [
+                "ingles instrumental",
+                "cálculo 2",
+                "banco de dados"
+            ]
+        }
+    ],
+    "cursos": [
+        {
+            "id": 1,
+            "nome": "computação"
+        },
+        {
+            "id": 2,
+            "nome": "mecatrônica"
+        },
+        {
+            "id": 3,
+            "nome": "fisica"
+        },
+        {
+            "id": 4,
+            "nome": "matemática"
+        }
+    ]
+}

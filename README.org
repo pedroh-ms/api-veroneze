@@ -1,0 +1,86 @@
+* How to Run the Application
+
+The process of running the application must be done in a
+command line interface, specifically, in the terminal
+(powershell for windows and bash for linux).
+
+First, we need to create a virtual environment. This is done
+by running the following command on windows:
+#+BEGIN_QUOTE
+> py -3 -m venv venv
+#+END_QUOTE
+or on linux:
+#+BEGIN_QUOTE
+$ python3 -m venv venv
+#+END_QUOTE
+
+After the creation of the environment, we activate it with
+the following command on windows:
+#+BEGIN_QUOTE
+> venv/Scripts/activate
+#+END_QUOTE
+or on linux:
+#+BEGIN_QUOTE
+$ source venv/bin/activate
+#+END_QUOTE
+
+The environment can be disabled on both systems (windows and
+linux) with the command ~deactivate~.
+
+After activating the virtual environment we need to dowload
+the dependencies. For that, we use the following command on window:
+#+BEGIN_QUOTE
+> pip install -e .
+#+END_QUOTE
+or on linux:
+#+BEGIN_QUOTE
+$ pip3 install -e .
+#+END_QUOTE
+
+Finnaly, we run the script RunDev.ps1 on windows:
+#+BEGIN_QUOTE
+> .\RunDev.ps1
+#+END_QUOTE
+or rundev.sh on linux:
+#+BEGIN_QUOTE
+$ chmod +x rundev.sh
+$ ./rundev.sh
+#+END_QUOTE
+
+* How to Use
+
+Just put the resource (aluno or curso) in the url in
+the format:
+#+BEGIN_QUOTE
+http://localhost:5000/aluno
+#+END_QUOTE
+for aluno, or:
+#+BEGIN_QUOTE
+http://localhost:5000/curso
+#+END_QUOTE
+for curso.
+
+To use the methods ~GET~, ~PUT~ and ~DELETE~ we need to
+indicate the id in the url. For example, the ~GET~ method
+with the url:
+#+BEGIN_QUOTE
+http://localhost:5000/aluno/5
+#+END_QUOTE
+will return the resource aluno of id=5.
+
+Also, to use ~POST~ and ~PUT~ methods is necessary to
+pass a json with the parameters to create or change a
+resource. For example, the ~PUT~ method with the url:
+#+BEGIN_QUOTE
+http://localhost:5000/curso/2
+#+END_QUOTE
+and json:
+#+BEGIN_QUOTE
+{
+  "nome" : "medicina"
+}
+#+END_QUOTE
+will change the name of the resource curso of id=2
+to ~"medicina"~.
+
+For Swagger documentation access [[http://localhost:5000/apidocs.]]

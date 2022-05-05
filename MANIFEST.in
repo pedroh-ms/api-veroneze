@@ -1,0 +1,8 @@
+graft .
+graft tests
+graft src/api_veroneze
+global-exclude *.pyc
+global-exclude *~
+prune src/api_veroneze.egg-info
+prune venv
+prune dist
