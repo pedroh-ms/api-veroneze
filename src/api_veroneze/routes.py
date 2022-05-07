@@ -1,4 +1,5 @@
 from flask import current_app, Blueprint, render_template, jsonify, request
+from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_required
 from .database import *
 import os
 import json
@@ -41,9 +42,24 @@ def resourceUpdate(resource, resourceupdate, columns, resourcename):
                     'message' : 'The resouce ' + resourcename + ' of id ' + str(resourceid) + ' has its data changed!'}}, 200
 
 
+@bp.route('/login')
+def login():
+    
+    username = request.args.get('user', None)
+    password = request.args.get('password', None)
+    if username != 'admin' or password != 'admin':
+        return {'error' : {'status' : 401,
+                           'message' : 'Bad username or password'}}, 401
+
+    access_token = create_access_token(identity=username)
+    return jsonify({'ok' : {'status' : 200,
+                            'message' : 'Token was generated!',
+                            'access_token' : access_token}}), 200
+
 
 # seleciona todo o banco de dados e devolve o json do mesmo
 @bp.route('/database')
+@jwt_required()
 def getDataBase():
 
     return {'alunos' : [{'id' : i.id,
@@ -59,6 +75,7 @@ def getDataBase():
 
 
 @bp.route('/aluno/<id>', methods=['GET', 'DELETE', 'PUT'])
+@jwt_required()
 def alunoGetDeleteUpdate(id):
 
     aluno = Aluno.query.filter_by(id=id).first()
@@ -100,6 +117,7 @@ def alunoGetDeleteUpdate(id):
 
 # retorna os alunos por página
 @bp.route('/aluno/page/<int:page_number>')
+@jwt_required()
 def alunoGetPage(page_number):
 
     alunos = Aluno.query.paginate(page_number, 10, False).items
@@ -121,6 +139,7 @@ def alunoGetPage(page_number):
 
 # insere uma linha na tabela aluno
 @bp.route('/aluno', methods = ['POST'])
+@jwt_required()
 def alunoInsert():
 
     if request.method == 'POST':
@@ -157,6 +176,7 @@ def alunoInsert():
 
     
 @bp.route('/curso/<id>', methods=['GET', 'DELETE', 'PUT'])
+@jwt_required()
 def cursoGetDeleteUpdate(id):
 
     curso = Curso.query.filter_by(id=id).first()
@@ -187,6 +207,7 @@ def cursoGetDeleteUpdate(id):
 
 
 @bp.route('/curso', methods=['POST'])
+@jwt_required()
 def cursoInsert():
 
     if request.method == 'POST':

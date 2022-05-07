@@ -68,6 +68,11 @@ for aluno, or:
 
 for curso.
 
+A Bearer token is needed to access all of this routes. This token
+is retrieved with the url:
+
+> <http://localhost:5000/login?user=admin&password=admin>
+
 To use the methods `GET`, `PUT` and `DELETE` we need to
 indicate the id in the url. For example, the `GET` method
 with the url:
