@@ -1,5 +1,6 @@
 from flask import current_app, Blueprint, render_template, jsonify, request
 from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_required
+from flask_sqlalchemy import inspect
 from .database import *
 import os
 import json
@@ -137,7 +138,7 @@ def alunoGetPage(page_number):
                                  'disciplinas' : i.disciplinas.split(',')} for i in alunos]}), 200
 
 
-# insere uma linha na tabela aluno
+# insere uma linha na tabela
 @bp.route('/aluno', methods = ['POST'])
 @jwt_required()
 def alunoInsert():
@@ -211,6 +212,7 @@ def cursoGetDeleteUpdate(id):
 def cursoInsert():
 
     if request.method == 'POST':
+        
         curso = request.get_json()
 
         try:
@@ -240,8 +242,14 @@ def cursoInsert():
 @bp.route('/restart')
 def restartDataBase():
 
-    db.drop_all()
 
+    inspector = inspect(db.engine)
+    
+    if inspector.has_table('aluno'):
+        Aluno.__table__.drop(db.engine)
+    if inspector.has_table('curso'):
+        Curso.__table__.drop(db.engine)
+    
     db.create_all()
 
     json_file = open('src/api_veroneze/db.json', 'r', encoding='utf-8')
@@ -264,3 +272,4 @@ def restartDataBase():
     db.session.commit()
     return {'ok' : {'status' : 200,
                     'message' : 'Database restarted!'}}, 200
+

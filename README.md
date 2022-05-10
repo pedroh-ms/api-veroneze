@@ -55,6 +55,9 @@ or rundev.sh on linux:
 
 <a id="orga1ee008"></a>
 
+Alternatively, it's possible to run the application as a docker
+container, using docker compose with the `docker-compose.yml` file. 
+
 # How to Use
 
 Just put the resource (aluno or curso) in the url in
@@ -68,7 +71,7 @@ for aluno, or:
 
 for curso.
 
-A Bearer token is needed to access all of this routes. This token
+A Bearer token is needed to access all these routes. This token
 is retrieved with the url:
 
 > <http://localhost:5000/login?user=admin&password=admin>

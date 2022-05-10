@@ -1,0 +1,10 @@
+**/*~
+**/*.pyc
+dist
+venv
+src/api_veroneze.egg-info
+src/instance
+README.org
+README.md
+RunDev.ps1
+rundev.sh

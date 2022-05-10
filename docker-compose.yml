@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  api:
+    image: app/api_veroneze
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    networks:
+      - default
+    restart: always
+  db:
+    image: postgres:14.2
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123admin
+      POSTGRES_DB: ProjetoVeroneze
+    networks:
+      - default
+    ports:
+      - "5001:5432"
+    restart: always
+    

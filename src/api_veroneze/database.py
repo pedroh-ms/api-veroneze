@@ -1,5 +1,6 @@
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy, inspect
 from sqlalchemy import exc
+import json
 
 
 db = SQLAlchemy()
@@ -28,3 +29,39 @@ class Aluno(db.Model):
 
     def __repr__(self):
         return f'<Id {self.id}, Nome_completo {self.nome_completo}, Email {self.email}, Endereco_rua {self.endereco_rua}, Endereco_numero {self.endereco_numero}, Endereco_cidade {self.endereco_cidade}, Curso {self.curso}, Disciplinas {self.disciplinas}>'
+
+
+
+def startDataBase(app, db):
+
+    with app.app_context():
+        
+        inspector = inspect(db.engine)
+    
+        if inspector.has_table('aluno'):
+            Aluno.__table__.drop(db.engine)
+        if inspector.has_table('curso'):
+            Curso.__table__.drop(db.engine)
+    
+        db.create_all()
+
+        json_file = open('src/api_veroneze/db.json', 'r', encoding='utf-8')
+        data = json.load(json_file)
+
+        for i in data['cursos']:
+            db.session.add(Curso(id=i['id'],
+                                 nome=i['nome']))
+
+        for i in data['alunos']:
+            db.session.add(Aluno(id=i['id'],
+                                 nome_completo=i['nome_completo'],
+                                 email=i['email'],
+                                 endereco_rua=i['endereço']['rua'],
+                                 endereco_numero=i['endereço']['numero'],
+                                 endereco_cidade=i['endereço']['cidade'],
+                                 curso=i['curso'],
+                                 disciplinas=','.join(i['disciplinas'])))
+
+        db.session.commit()
+        return {'ok' : {'status' : 200,
+                        'message' : 'Database restarted!'}}, 200

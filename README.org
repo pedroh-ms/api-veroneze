@@ -47,6 +47,9 @@ $ chmod +x rundev.sh
 $ ./rundev.sh
 #+END_QUOTE
 
+Alternatively, it's possible to run the application as a docker
+container, using docker compose with the ~docker-compose.yml~ file.
+
 * How to Use
 
 Just put the resource (aluno or curso) in the url in
@@ -60,7 +63,7 @@ http://localhost:5000/curso
 #+END_QUOTE
 for curso.
 
-A Bearer token is needed to access all of this routes. This token
+A Bearer token is needed to access all these routes. This token
 is retrieved with the url:
 #+BEGIN_QUOTE
 http://localhost:5000/login?user=admin&password=admin
