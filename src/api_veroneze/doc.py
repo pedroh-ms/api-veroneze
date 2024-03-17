@@ -269,6 +269,59 @@ doc = {
             ]            
         },
         '/aluno' : {
+            'get' : {
+                'description' : 'Get all resources aluno from the database',
+                'summary' : 'Get all resources aluno from the database',
+                'tags' : ['Aluno'],
+                'security' : [
+                    {
+                        'bearerAuth' : [
+                        ]
+                    }
+                ],
+                'responses' : {
+                    '200' : {
+                        'description' : 'ok',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/Aluno'
+                                }
+                            }
+                        }
+                    },
+                    '401' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    },
+                    '404' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    },
+                    '422' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             'post' : {
                 'description' : 'Insert a resource aluno into the database',
                 'summary' : 'Insert a resource aluno into the database',
@@ -628,6 +681,59 @@ doc = {
             ]
         },
         '/curso' : {
+            'get' : {
+                'description' : 'Get all resources curso from the database',
+                'summary' : 'Get all resources curso from the database',
+                'tags' : ['Curso'],
+                'security' : [
+                    {
+                        'bearerAuth' : [
+                        ]
+                    }
+                ],
+                'responses' : {
+                    '200' : {
+                        'description' : 'ok',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/Curso'
+                                }
+                            }
+                        }
+                    },
+                    '401' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    },
+                    '404' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    },
+                    '422' : {
+                        'description' : 'error',
+                        'content' : {
+                            'application/json' : {
+                                'schema' : {
+                                    '$ref' : '#/components/schemas/ErrorModel'
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             'post' : {
                 'description' : 'Insert a resource curso into the database',
                 'summary' : 'Insert a resource curso into the database',

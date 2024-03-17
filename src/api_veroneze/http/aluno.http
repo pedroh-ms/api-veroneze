@@ -1,0 +1,77 @@
+@apiurl = http://127.0.0.1:5000
+@token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjM3NzgxNiwianRpIjoiZjk1N2JiNzctMTljNS00YmYxLTkwYjQtZmQ5ZGJhZDIxMGIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzA2Mzc3ODE2LCJjc3JmIjoiZGExNzY0ODEtZDE1Yy00ZTlkLThlOTYtMTRiN2E0MjkyNDMwIiwiZXhwIjoxNzA2Mzc4NzE2fQ.CHqzJe2nhgDIxEzMweyNa_XKrCie_5RcbUn_TNYwdRI
+
+### GET /
+GET {{apiurl}}/ HTTP/1.1
+
+### GET aluno
+GET {{apiurl}}/aluno HTTP/1.1
+Authorization: Bearer {{token}}
+
+### GET aluno/<id>
+GET {{apiurl}}/aluno/101 HTTP/1.1
+Authorization: Bearer {{token}}
+
+### GET aluno/page/<page_number>
+GET {{apiurl}}/aluno/page/2?per_page=10
+Authorization: Bearer {{token}}
+
+### POST aluno
+POST {{apiurl}}/aluno HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome_completo": "Pedro Henrique Martins de Souza",
+    "email": "pedromail1@gmail.com",
+    "curso": 4,
+    "endereço": {
+        "cidade": "Caldas Novas",
+        "numero": "SN",
+        "rua": "13"
+    },
+    "disciplinas": [
+        "teoria dos grafos",
+        "algebra linear",
+        "estrutura de dados"
+    ]
+}
+
+### PUT aluno/<id>
+PUT {{apiurl}}/aluno/101 HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome_completo": "Pedro Henrique Martins",
+    "email": "pedromail1@gmail.co",
+    "curso": 4,
+    "endereço": {
+        "cidade": "Caldas Novas",
+        "numero": "SN",
+        "rua": "13"
+    },
+    "disciplinas": [
+        "teoria dos grafos",
+        "algebra linear",
+        "estrutura de dados"
+    ]
+}
+
+### PATCH aluno/<id>
+PATCH {{apiurl}}/aluno/101 HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome_completo": "Pedro Henrique Martins de Souza",
+    "email": "pedromartins@gmail.com",
+    "disciplinas": [
+        "teoria dos grafos",
+        "algebra linear"
+    ]
+}
+
+### DELETE aluno/<id>
+DELETE {{apiurl}}/aluno/101 HTTP/1.1
+Authorization: Bearer {{token}}

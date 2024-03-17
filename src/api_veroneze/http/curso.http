@@ -1,0 +1,40 @@
+@apiurl = http://127.0.0.1:5000
+@token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcwNjM3NzgxNiwianRpIjoiZjk1N2JiNzctMTljNS00YmYxLTkwYjQtZmQ5ZGJhZDIxMGIwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzA2Mzc3ODE2LCJjc3JmIjoiZGExNzY0ODEtZDE1Yy00ZTlkLThlOTYtMTRiN2E0MjkyNDMwIiwiZXhwIjoxNzA2Mzc4NzE2fQ.CHqzJe2nhgDIxEzMweyNa_XKrCie_5RcbUn_TNYwdRI
+
+### GET /curso
+GET {{apiurl}}/curso HTTP/1.1
+
+### GET /curso/<id>
+GET {{apiurl}}/curso/5 HTTP/1.1
+Authorization: Bearer {{token}}
+
+### POST /curso
+POST {{apiurl}}/curso HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome": "Matemática Industrial"
+}
+
+### PUT /curso/<id>
+PUT {{apiurl}}/curso/5
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome": "MI"
+}
+
+### PATCH /curso/<id>
+PATCH {{apiurl}}/curso/5
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome": "Matemática Industrial"
+}
+
+### DELETE /curso/<id>
+DELETE {{apiurl}}/curso/5
+Authorization: Bearer {{token}}

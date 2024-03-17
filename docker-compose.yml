@@ -13,7 +13,7 @@ services:
       - default
     restart: always
   db:
-    image: postgres:14.2
+    image: postgres:16.2
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: 123admin

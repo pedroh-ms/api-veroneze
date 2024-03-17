@@ -6,6 +6,7 @@ from flask import Flask
 from flasgger import Swagger
 from .doc import doc
 
+
 def make_app(test_config=None):
 
     app = Flask(__name__, instance_relative_config=True)
@@ -47,24 +48,35 @@ def make_app(test_config=None):
     
     from .auth import jwt
     jwt.init_app(app)
-
     
-    from .database import db, startDataBase
+    from .database import db
     db.init_app(app)
 
-    startDataBase(app, db)
+    from .app_bcrypt import app_bcrypt
+    app_bcrypt.init_app(app)
 
-    
+    from .start_database import start_database
+    start_database(app, db)
+
     # home
     @app.route('/')
     def home():
-        
-        return {'ok' : {'status' : 200,
-                         'message' : 'Test server for the Veroneze\'s project'}} 
-
+        return {
+            'ok' : {
+                'status' : 200,
+                'message' : 'Test server for the Veroneze\'s project'
+            }
+        } 
     
-    from . import routes
-    app.register_blueprint(routes.bp)
+    from .views import (
+        aluno,
+        curso,
+        login
+    )
+
+    app.register_blueprint(aluno.bp)
+    app.register_blueprint(curso.bp)
+    app.register_blueprint(login.bp)
 
     
     return app
